@@ -1,30 +1,60 @@
-.introduction{
-font-family: Georgia; 
-color: wheat !important;
-background-image: url("data:image/jpeg;base64,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");
-background-size:cover;
-background-position: center;
-border: 1px red dotted;
-margin: 10px 10px;
+.glenn{
+background-color: gray;
+font-family: 'Trebuchet MS', serif;
+top: 0px;
+text-align: center;
+width: 100%;
+z-index: 1;
 }
-.essay{
-color:darkkhaki;
-background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
-background-position: center;
-background-size: cover;
-font-family: Arial, Helvetica, sans-serif;
-font: sans-serif;
-overflow: scroll;
-border 1px blue solid;
-padding: 20px;
-margin 10px 10px;
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.themeat{
+text-align: center;
+background-color: lightslategrey;
+width: 100%;
+}
+.themeat ul li{
+display: inline;
+}
+body{
+font-family: 'Trebuchet MS', serif;
+}
+.pictwo{
+/*margin-right: 500px; */
+background-color: rgb(84, 84, 84)
+}
+.right{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.glenn2{
+    background-color: gray;
+    font-family: 'Trebuchet MS', serif;
+    top: 37px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    }
+.achievements{
+ text-align: center;
+ background-color:rgb(103, 86, 86)
+}
+footer{
+text-align: center;
+background-color:rgb(68, 101, 82)
 }
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #2133d1;
+	background-color: #413049;
 	display: table;
 	width: 100%;
 }
@@ -43,24 +73,4 @@ li a {
 
 li a:hover {
 	background-color: #111;
-}
-
-
-h4{
-font-weight: bold;
-text-align: left;
-}
-.dif{
-text-align: center !important;
-color: cornflowerblue !important;
-}
-img{
-box-align: left;
-}
-.strong{
-font-weight: bold;
-}
-h6{
-  font-weight: bold;
-  color: cornflowerblue;
 }
