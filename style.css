@@ -1,76 +1,102 @@
-.glenn{
-background-color: gray;
-font-family: 'Trebuchet MS', serif;
-top: 0px;
-text-align: center;
-width: 100%;
-z-index: 1;
-}
-.picture{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-.themeat{
-text-align: center;
-background-color: lightslategrey;
-width: 100%;
-}
-.themeat ul li{
-display: inline;
-}
 body{
-font-family: 'Trebuchet MS', serif;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
+background-color: #f6f4ff;
+margin: 0;
 }
-.pictwo{
-/*margin-right: 500px; */
-background-color: rgb(84, 84, 84)
+.intro{
+text-align: center;
 }
-.right{
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-.glenn2{
-    background-color: gray;
-    font-family: 'Trebuchet MS', serif;
-    top: 37px;
-    position: fixed;
-    text-align: center;
+header {
+    background-color: #535353;
     width: 100%;
     z-index: 1;
-    }
-.achievements{
- text-align: center;
- background-color:rgb(103, 86, 86)
-}
-footer{
+    position: fixed;
+    top: 0px;
+  }
+  nav {
+    margin: 0;
+    padding: 20px 0;
+  }
+  nav li {
+    color: rgba(255, 255, 255, 0.859);
+    font-family: 'Trebuchet MS', serif;
+    font-weight: 600;
+    display: inline-block; 
+    width: 100px;
+  }
+  main{
+  position: relative;
+  top: 100px;
+  }
+  a{
+  color: red;
+  }
+  .left{
+   text-align: left !important;
+   border: 3px solid red;
+   padding: 10px;
+   /*margin-right: 600px;*/
+   position: relative;
+   display: block;
+    width: 400px;
+   margin: 0 auto;
+  }
+  .right{
+    text-align: left;
+    border: 3px solid red;
+    padding: 10px;
+   /* margin-left: 1496px;*/
+    position: relative;
+    display: block;
+    width: 400px;
+   margin: 0 auto;
+  }
+  .themeat{
+  text-align: center;
+  }
+  th {
+    border: 1px solid #000000;
+  }
+  
+  table {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  td {
+    border: 1px solid #000000;
+    width: 300px;
+  }
+  tr{
+    border: 1px solid #000000;
+  }
+  .diftable{
+  border: 3px solid rgb(255, 3, 32);
+  padding: 2px;
+  }
+  .main2{
+  top: 120px;
+  position: relative;
+  }
+.meintro{
 text-align: center;
-background-color:rgb(68, 101, 82)
 }
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #413049;
-	display: table;
-	width: 100%;
+.history{
+  text-align: center;
+  border: 3px solid red;
+  padding: 10px;
+  position: relative;
+  top: -9px;
 }
-
-nav li {
-	display: table-cell
+.lefts{
+text-align: center;
 }
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 30px 30px;
-	text-decoration: none;
+.pics{
+text-align: center;
 }
-
-li a:hover {
-	background-color: #111;
-}
+ .online{
+  text-align: center;
+ }
+ .large{
+  font-size: 50px;
+ }
